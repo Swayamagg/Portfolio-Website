@@ -4,46 +4,31 @@ import { Calendar, MapPin, Building, ExternalLink } from 'lucide-react';
 const Experience = ({ darkMode }) => {
   const experiences = [
     {
-      title: 'Software Development Intern',
-      company: 'Tech Company Name',
-      location: 'Remote/Delhi, India',
-      duration: 'Jun 2024 - Aug 2024',
+      title: 'Frontend Web Development Trainee',
+      company: 'IBM',
+      location: '',
+      duration: '07/2025 - Present',
       description: [
-        'Developed and maintained full-stack web applications using React, Node.js, and MongoDB',
-        'Collaborated with cross-functional teams to implement new features and improve user experience',
-        'Participated in code reviews and contributed to team documentation',
-        'Gained hands-on experience with modern development practices and tools'
+        'Building responsive, accessible, and scalable interfaces using React, with integration of REST APIs and advanced JavaScript features.',
+        'Collaborating in a team-based environment to deliver real-world projects with industry-level code quality and UI/UX standards.'
       ],
-      technologies: ['React', 'Node.js', 'MongoDB', 'Git', 'REST APIs'],
-      link: '#'
+      technologies: ['React', 'REST APIs', 'JavaScript', 'UI/UX'],
+      link: ''
     },
     {
-      title: 'Student Developer',
-      company: 'University Projects',
-      location: 'Delhi, India',
-      duration: 'Jan 2024 - Present',
+      title: 'Freelance Full-Stack Developer',
+      company: 'Creating Dimensions',
+      location: '',
+      duration: '05/2025 - Present',
       description: [
-        'Built multiple full-stack applications including a hospital management system and chatbot',
-        'Implemented responsive designs and modern UI/UX principles',
-        'Worked with various technologies including React, Python, and machine learning libraries',
-        'Demonstrated problem-solving skills and ability to work independently'
+        'Ensuring a secure and intuitive user experience with responsive UI/UX.',
+        'Developing an EdTech platform using Full Stack (Firebase, Express.js, React.js, Node.js).',
+        'Building a content delivery system for written notes.',
+        'Creating an admin panel for managing and updating study materials.',
+        'Implementing user authentication and payment integration.'
       ],
-      technologies: ['React', 'Python', 'JavaScript', 'HTML/CSS', 'Machine Learning'],
-      link: 'https://github.com/Swayamagg'
-    },
-    {
-      title: 'Open Source Contributor',
-      company: 'Community Projects',
-      location: 'Remote',
-      duration: '2023 - Present',
-      description: [
-        'Contributed to open-source projects and collaborated with developers worldwide',
-        'Improved code quality and added new features to existing projects',
-        'Learned best practices in software development and version control',
-        'Built a strong foundation in collaborative development workflows'
-      ],
-      technologies: ['Git', 'GitHub', 'Open Source', 'Collaboration'],
-      link: 'https://github.com/Swayamagg'
+      technologies: ['Firebase', 'Express.js', 'React.js', 'Node.js', 'UI/UX', 'Authentication', 'Payment Integration'],
+      link: ''
     }
   ];
 
