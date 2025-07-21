@@ -17,12 +17,18 @@ const Hero = ({ darkMode }) => {
         <div className="text-center">
           {/* Profile Image Placeholder */}
           <div className="mb-8 flex justify-center">
-            <div className={`w-48 h-48 rounded-full overflow-hidden border-4 shadow-xl ${
+            <div className={`w-48 h-48 rounded-full overflow-hidden border-4 shadow-2xl ring-4 ring-indigo-400/60 transition-transform duration-300 hover:scale-105 ${
               darkMode ? 'border-blue-400 bg-gray-800' : 'border-white bg-gradient-to-br from-blue-400 to-indigo-600'
             }`}>
-              <div className="w-full h-full flex items-center justify-center text-6xl font-bold text-white">
-                SA
-              </div>
+              <img
+                src="/swayam.jpeg"
+                alt="Swayam Aggarwal"
+                className="w-full h-full object-cover"
+                style={{
+                  objectPosition: '15% center', // Custom left position
+                  filter: darkMode ? 'brightness(0.85) contrast(1.1)' : 'brightness(1) contrast(1.05)'
+                }}
+              />
             </div>
           </div>
 

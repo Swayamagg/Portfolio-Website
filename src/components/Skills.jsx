@@ -39,10 +39,8 @@ const Skills = ({ darkMode }) => {
   ];
 
   const technologies = [
-    'React', 'Node.js', 'Express.js', 'MongoDB', 'JavaScript', 'TypeScript',
-    'Tailwind CSS', 'Git', 'Firebase', 'REST API', 'JWT', 'HTML5', 'CSS3',
-    'Java', 'Python', 'Responsive Design', 'Agile', 'Problem Solving'
-  ];
+    'React', 'Node.js', 'Express.js', 'MongoDB', 'JavaScript','Tailwind CSS', 'Git', 'Firebase', 'REST API',  'HTML5', 'CSS3',
+    'Java'];
 
   return (
     <section id="skills" className={`py-20 ${darkMode ? 'bg-gray-800' : 'bg-gray-50'}`}>
