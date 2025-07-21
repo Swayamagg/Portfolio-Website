@@ -21,7 +21,7 @@ const Hero = ({ darkMode }) => {
               darkMode ? 'border-blue-400 bg-gray-800' : 'border-white bg-gradient-to-br from-blue-400 to-indigo-600'
             }`}>
               <img
-                src="/swayam.jpeg"
+                src="/images/swayam.jpeg"
                 alt="Swayam Aggarwal"
                 className="w-full h-full object-cover"
                 style={{
