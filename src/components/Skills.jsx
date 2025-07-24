@@ -7,6 +7,7 @@ const Skills = ({ darkMode }) => {
       skills: [
         { name: 'Java', level: 90 },
         { name: 'JavaScript', level: 85 },
+        { name:'Python', level:45}
       ]
     },
     {
@@ -21,17 +22,17 @@ const Skills = ({ darkMode }) => {
     {
       title: 'Backend Development',
       skills: [
-        { name: 'Node.js', level: 85 },
-        { name: 'Express.js', level: 80 },
-        { name: 'REST APIs', level: 85 },
-        { name: 'JWT Authentication', level: 80 }
+        { name: 'Node.js', level: 75 },
+        { name: 'Express.js', level: 60 },
+        { name: 'REST APIs', level: 80 },
+        { name: 'JWT Authentication', level: 60 }
       ]
     },
     {
       title: 'Database & Tools',
       skills: [
         { name: 'MongoDB', level: 80 },
-        { name: 'Firebase', level: 75 },
+        { name: 'Firebase', level: 50 },
         { name: 'Git/GitHub', level: 90 },
         { name: 'VS Code', level: 95 }
       ]

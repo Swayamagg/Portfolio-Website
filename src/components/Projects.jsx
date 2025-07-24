@@ -88,7 +88,7 @@ const Projects = ({ darkMode }) => {
 
                 {/* Project Links */}
                 <div className="flex gap-3">
-                  <a
+                  {/* <a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -100,8 +100,8 @@ const Projects = ({ darkMode }) => {
                   >
                     <Github size={16} />
                     Code
-                  </a>
-                  <a
+                  </a> */}
+                  {/* <a
                     href={project.live}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -113,7 +113,7 @@ const Projects = ({ darkMode }) => {
                   >
                     <ExternalLink size={16} />
                     Live Demo
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
